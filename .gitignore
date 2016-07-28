@@ -1,0 +1,7 @@
+.project
+.DS_Store
+.idea
+logs
+
+#when the cloudformatin-ruby-dsl receives an exception from AWS a *.expanded.json file get created but we never want these to be apart of our repo
+*.expanded.json
